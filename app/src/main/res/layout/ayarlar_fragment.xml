@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bembeyaz"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:src="@drawable/gosterge"
+            android:layout_width="@dimen/ayarlar_i_height"
+            android:layout_height="@dimen/ayarlar_i_height"
+            android:layout_marginRight="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/ayarlar_header"
+            android:text="KoPilot"
+            android:textStyle="bold"
+            android:singleLine="false"
+            android:layout_width="wrap_content"
+            style="@style/content_header_textview"
+            android:textColor="@color/light_gray_header_color"
+            android:layout_marginLeft="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+    <!--
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_vertical|left"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/ayarlar_dil_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ayarlar_dil"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <TextView
+            android:id="@+id/content_header_textview"
+            android:text="@string/dil_textview"
+            android:singleLine="false"
+            android:layout_marginLeft="@dimen/top_margin"
+            android:layout_width="wrap_content"
+            style="@style/content_header_textview_ayarlar"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/spinner_dil"
+            android:layout_marginLeft="@dimen/ayarlar_left_margin"
+            android:layout_height="@dimen/spinner_height"
+            style="@style/mr_fe_in_spinner"
+            android:dropDownWidth="wrap_content"
+            android:minWidth="250dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ayarlar_button_height"
+        android:text="@string/kaydet_button_text"
+        android:drawableLeft="@android:drawable/ic_menu_save"
+        android:id="@+id/ayarlar_kaydet_button"
+        android:textColor="@color/bembeyaz"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center_horizontal" />
+
+    -->
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_width="0dp"
+            android:gravity="left"
+            android:layout_height="@dimen/edittext_height"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/paylas_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|left"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/paylas"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/ayarlar_button_height"
+                android:text="@string/paylas_text"
+                android:id="@+id/paylas_button"
+                android:background="@color/kirlibeyaz"
+                android:layout_marginLeft="0dp"
+                style="@style/content_header_textview_ayarlar"
+                android:layout_gravity="center_horizontal" />
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_width="0dp"
+            android:gravity="left"
+            android:layout_height="@dimen/edittext_height"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/puan_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|left"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/puan"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/ayarlar_button_height"
+                android:text="@string/puan_ver_text"
+                android:id="@+id/puan_button"
+                android:background="@color/kirlibeyaz"
+                android:layout_marginLeft="0dp"
+                style="@style/content_header_textview_ayarlar"
+                android:layout_gravity="center_horizontal" />
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/edittext_height"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/geri_bildirim_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|left"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/feedback"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/ayarlar_button_height"
+                android:text="@string/geri_bildirim_text"
+                android:id="@+id/feedback_button"
+                android:background="@color/kirlibeyaz"
+                android:layout_marginLeft="0dp"
+                style="@style/content_header_textview_ayarlar"
+                android:layout_gravity="center_horizontal" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

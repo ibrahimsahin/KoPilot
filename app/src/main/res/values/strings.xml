@@ -1,0 +1,114 @@
+<resources>
+
+
+    <string name="app_name">KoPilot</string>
+    <string name="GOOGLE_MAP_API_KEY">AIzaSyABAJmy1At0gnCCLuE6MpsQawDzgEkVXAM</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+
+
+    <string name="app_name_alias">"Kopilot"</string>
+    <string name="kurum_adi">AnkaraBT</string>
+    <string name="uygulama_konusu">AnkaraBT\nAraç Hız Takibi</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Ana Sayfa</string>
+    <string name="nav_ana_sayfa">Ana Sayfa</string>
+    <string name="nav_guzergahlar">Güzergah</string>
+    <string name="nav_istatistik">İstatistik</string>
+    <string name="nav_harita">Harita</string>
+    <string name="nav_ayarlar">Ayarlar</string>
+
+
+
+
+
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Ana Sayfa</item>
+        <item>Güzergah</item>
+        <item>İstatistik</item>
+        <item>Harita</item>
+        <item>Ayarlar</item>
+    </string-array>
+
+
+    <string name="directory_query">selectDirectoryTimeStampQuery</string>
+    <string name="language_query">selectLanguageTimeStampQuery</string>
+    <string name="content_query">selectContentTimeStampQuery</string>
+    <string name="media_names_query">selectMediaNamesTimeStampQuery</string>
+    <string name="dua_names_query">selectDuaTimeStampQuery</string>
+    <string name="uygulama_query">selectUygulamalarTimeStampQuery</string>
+    <string name="ziyaret_query">selectZiyaretYerleriTimeStampQuery</string>
+    <string name="giris_yazi_query">selectGirisYazisi</string>
+
+
+
+
+    <string name="get_image_physical_from_server">getImagePhysical</string>
+    <string name="get_audio_physical_from_server">getAudioPhysical</string>
+    <string name="get_video_physical_from_server">getVideoPhysical</string>
+    <string name="get_pdf_physical_from_server">getPdfPhysical</string>
+
+
+
+    <string name="getImageSizeTimeStampQuery">getImageSizeTimeStampQuery</string>
+    <string name="getVideoSizeTimeStampQuery">getVideoSizeTimeStampQuery</string>
+    <string name="getPdfSizeTimeStampQuery">getPdfSizeTimeStampQuery</string>
+    <string name="getIAudioSizeTimeStampQuery">getIAudioSizeTimeStampQuery</string>
+    <string name="getIAudioSizeOfDuaTimeStampQuery">getIAudioSizeOfDuaTimeStampQuery</string>
+    <string name="getIAudioSizeOfDua2TimeStampQuery">getIAudioSizeOfDua2TimeStampQuery</string>
+
+
+
+
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="progress_message">Lütfen bekleyiniz...</string>
+    <string name="dil">Dil</string>
+    <string name="progress_message_title">AnkaraBT</string>
+    <string name="sorgu_hatasi">Sorgu sırasında hata oluştu.Bağlantı ayarlarını kontrol edip tekrar deneyiniz</string>
+    <string name="internet_error">İnternet bağlantınızı kontrol edin...</string>
+    <string name="file_download">Dosya İndir</string>
+    <string name="hac_menusu">Hac Menü</string>
+    <string name="sonraki_adim">Sonraki Adım</string>
+    <string name="sonraki_dua">Sonraki Dua</string>
+    <string name="search_hint">Arama</string>
+    <string name="download_uyari">Uygulamaya ait medya boyutları aşağıda belirtilmiştir.Medya içerikleri tamamen ücretsizdir.İndirmek istediğiniz medya türlerini işaretleyerek indir butonuna basınız</string>
+    <string name="ad_soyad_text">Ad-Soyad\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="mekke_otel_text">Mekke Otel\u0020</string>
+    <string name="medine_otel_text">Medine Otel</string>
+    <string name="ad_soyad_hint">Ad-Soyad</string>
+    <string name="kaydet_button_text">Kaydet</string>
+    <string name="ara_text">Ara</string>
+    <string name="ayarlar_kaydedildi">Ayarlarınız kaydedildi</string>
+    <string name="dil_textview">Dil\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="dil_ayari_uyari">Dil ayarı için internet bağlantınızı kontrol edin</string>
+    <string name="paylas_text">Uygulamayı Paylaş</string>
+    <string name="puan_ver_text">Uygulamaya Puan Ver</string>
+    <string name="geri_bildirim_text">Geri Bildirim Gönder</string>
+    <string name="my_app_play_store_link">https://play.google.com/store/apps/details?id=com.ankarabt.kopilot</string>
+    <string name="my_app_package">com.ankarabt.kopilot</string>
+    <string name="feedback_mail">ibrhmsahn@gmail.com</string>
+    <string name="feedback_subject">KoPilot Geri Bildirim Gönder</string>
+
+
+
+
+</resources>

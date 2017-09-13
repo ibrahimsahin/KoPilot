@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@drawable/list_gradient_beyaz"
+    android:padding="5dip" >
+
+    <!--  -->
+
+
+    <Button
+        android:visibility="visible"
+        android:textColor="@color/kirlibeyaz"
+        android:textSize="@dimen/list_item_button_text"
+        android:text="Harita"
+        android:drawableLeft="@android:drawable/ic_dialog_map"
+        android:background="@drawable/my_grass_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/harita_button"
+        />
+
+
+    <Button
+        android:visibility="visible"
+        android:textColor="@color/kirlibeyaz"
+        android:textSize="@dimen/list_item_button_text"
+        android:text="Test"
+        android:drawableLeft="@android:drawable/ic_dialog_map"
+        android:background="@drawable/my_grass_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/harita_button"
+        android:layout_toEndOf="@+id/harita_button"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/test_button"
+        />
+
+
+
+
+
+    <TextView
+        android:id="@+id/guzergah_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom ="1dip"
+        android:text="--"
+        android:textColor="@color/text"
+        android:textSize="@dimen/small_textsize"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/test_button"
+        android:layout_toEndOf="@+id/test_button" />
+
+
+
+
+
+
+
+</RelativeLayout>

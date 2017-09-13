@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@drawable/list_gradient_beyaz"
+    android:padding="5dip" >
+
+    <!--  -->
+
+    <ImageView
+        android:id="@+id/list_image"
+        android:layout_width="@dimen/normal_list_item_image_height"
+        android:layout_height="@dimen/normal_list_item_image_height"
+        android:layout_gravity="left"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/star"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/directory_list_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom ="1dip"
+        android:text="--"
+        android:textColor="@color/text"
+        android:textSize="@dimen/medium_textsize"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:layout_marginLeft="@dimen/top_margin"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/list_image"
+        android:layout_toEndOf="@+id/list_image" />
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

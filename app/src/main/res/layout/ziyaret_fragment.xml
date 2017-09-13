@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bembeyaz"
+    android:id="@+id/ziyaret_main_ly"
+    android:weightSum="100">
+
+
+
+    <LinearLayout
+        android:id="@+id/ziyaret_image_gallery_ly"
+        android:layout_weight="35"
+        android:layout_width="match_parent"
+        android:background="@color/bembeyaz"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/ziyaret_image_slider"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true" />
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/ziyaret_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ziyaret_header_ly"
+        android:layout_weight="43"
+        android:layout_marginLeft="@dimen/indent_margin"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="@dimen/small_image_height"
+            android:layout_gravity="center_vertical|left"
+            android:layout_height="@dimen/small_image_height">
+
+            <ImageView
+                android:id="@+id/ziyaret_list_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|left"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/star"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="10"
+            android:layout_gravity="center_vertical|left"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/ziyaret_header_textview"
+                android:text="---"
+                android:textStyle="bold"
+                android:singleLine="false"
+                android:layout_marginLeft="@dimen/top_margin"
+                android:layout_width="wrap_content"
+                style="@style/content_header_textview"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical|left"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.FloatingActionButton
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/fab_map"
+                android:layout_width="wrap_content"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content"
+                app:fabSize="normal"
+                app:backgroundTint="@color/yellow"
+                android:src="@drawable/map" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="22"
+        android:id="@+id/ziyaret_body_ly"
+        android:layout_width="match_parent"
+        android:scrollbars = "vertical"
+        android:layout_height="match_parent">
+
+
+        <!--  <com.uncopt.android.widget.text.justify.JustifiedTextView
+              android:layout_width="match_parent"
+              android:id="@+id/content_metin_textview"
+              android:lineSpacingExtra="@dimen/satir_araligi"
+              android:padding="5dp"
+              android:textColor="#303336"
+              android:textSize="18sp"
+
+              android:layout_height="wrap_content"/>
+              -->
+        <!-- <TextView
+               android:layout_marginTop="@dimen/fab_margin"
+               android:id="@+id/content_metin_textview"
+
+               android:lineSpacingExtra="@dimen/satir_araligi"
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"
+               android:singleLine="false"
+               android:maxLines = "99999"
+               android:scrollbars = "vertical"
+               style="@style/content_description_textview"
+               />
+               -->
+        <WebView
+            android:id="@+id/ziyaret_metin_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="@dimen/satir_araligi"
+            style="@style/content_description_textview"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
+

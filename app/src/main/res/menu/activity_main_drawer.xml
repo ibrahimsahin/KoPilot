@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ana_sayfa"
+            android:icon="@drawable/homepage"
+            android:title="@string/nav_ana_sayfa" />
+        <item
+            android:id="@+id/nav_guzergahlar"
+            android:icon="@drawable/rota"
+            android:title="@string/nav_guzergahlar" />
+        <item
+            android:id="@+id/nav_harita"
+            android:icon="@drawable/location"
+            android:title="@string/nav_harita" />
+        <item
+            android:id="@+id/nav_istatistik"
+            android:icon="@drawable/statistic"
+            android:title="@string/nav_istatistik" />
+
+        <item
+            android:id="@+id/nav_ayarlar"
+            android:icon="@drawable/settings"
+            android:title="@string/nav_ayarlar" />
+
+    </group>
+
+    <!--<item android:title="@string/nav_line_diger">
+        <menu>
+            <item
+                android:id="@+id/nav_iletisim"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/nav_iletisim" />
+            <item
+                android:id="@+id/nav_ayarlar"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/nav_ayarlar" />
+        </menu>
+    </item>
+    -->
+
+</menu>

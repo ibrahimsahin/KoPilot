@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/giris_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:singleLine="false"
+        android:maxLines = "99999"
+        android:layout_gravity="center"
+        style="@style/content_description_textview"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kapat"
+        android:background="@drawable/my_next_button"
+        android:id="@+id/kapat_button"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

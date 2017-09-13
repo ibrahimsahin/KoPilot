@@ -1,0 +1,117 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <style name="mr_dialog_title_textview">
+        <item name="android:textColor">@color/gray_orbis</item>
+        <item name="android:textSize">@dimen/mr_dialog_title_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:text">KoPilot</item>
+    </style>
+
+
+    <style name="ActionBarThemeOverlay" parent="">
+        <item name="android:textColorPrimary">@color/siyah</item>
+        <item name="colorControlNormal">@color/siyah</item>
+        <item name="colorControlHighlight">@color/siyah</item>
+
+    </style>
+
+    <style name="HeaderBar">
+        <item name="android:background">@color/bembeyaz</item>
+    </style>
+
+    <style name="ActionBarPopupThemeOverlay" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="android:background">@color/bembeyaz</item>
+        <item name="android:textColor">@color/siyah</item>
+    </style>
+
+
+    <style name="content_header_textview" >
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">@dimen/content_header_font_size</item>
+        <item name="android:textColor">@color/orange2</item>
+        <item name="android:layout_gravity">center_vertical|left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/indent_margin</item>
+    </style>
+
+    <style name="content_header_textview_ayarlar" >
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">@dimen/ayarlar_text_font_size</item>
+        <item name="android:textColor">@color/light_gray_header_color</item>
+        <item name="android:layout_gravity">center_vertical|left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/indent_margin</item>
+    </style>
+
+    <style name="content_description_textview" >
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">@dimen/content_description_font_size</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/indent_margin</item>
+        <item name="android:layout_marginRight">@dimen/indent_margin</item>
+
+    </style>
+
+
+
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">@dimen/nav_bar_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/nav_bar_item_height</item><!-- item size in menu-->
+    </style>
+
+
+    <style name="mr_fe_in_spinner" >
+        <item name="android:textSize">@dimen/medium_textsize</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/spinner_height</item>
+        <item name="android:spinnerMode">dialog</item>
+    </style>
+
+
+    <style name="dd_tab_item_style" parent="Widget.AppCompat.EditText" >
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="colorControlActivated">@color/mr_haki</item>
+        <item name="colorControlHighlight">@color/grikoyu</item>
+        <item name="android:textSize">@dimen/tab_label_size</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+    </style>
+
+
+    <style name="mr_fe_tablayout">
+
+        <item name="android:background">@color/mr_haki</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/normal_spinner_height</item>
+
+    </style>
+
+</resources>

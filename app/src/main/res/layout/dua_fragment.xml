@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bembeyaz"
+    android:id="@+id/dua_main_ly"
+   >
+
+
+
+    <LinearLayout
+    android:layout_weight="0.01"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_smaller"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="@dimen/small_image_height"
+            android:layout_height="@dimen/small_image_height"
+            android:layout_gravity="center_vertical|left"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/star"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+
+            android:id="@+id/dua_adi_tv"
+            android:text="---"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:singleLine="false"
+            android:maxLines = "2"
+            android:layout_gravity="center"
+            android:textColor="@color/red"
+            android:gravity="center"
+            style="@style/content_description_textview"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.FloatingActionButton
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/fab_voice_dua"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@color/yellow"
+            app:fabSize="mini"
+            android:src="@android:drawable/ic_media_play" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:id="@+id/dua_body_ly"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/dua_arapca_ly"
+            android:layout_width="match_parent"
+            android:scrollbars = "vertical"
+            android:layout_height="match_parent">
+            <WebView
+                android:id="@+id/dua_arapca_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lineSpacingExtra="@dimen/satir_araligi"
+                style="@style/content_description_textview"
+                />
+
+        </LinearLayout>
+
+       <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/dua_okunus_ly"
+            android:layout_width="match_parent"
+            android:scrollbars = "vertical"
+            android:layout_height="match_parent">
+
+            <WebView
+                android:layout_marginTop="@dimen/fab_margin"
+                android:id="@+id/dua_okunusu_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lineSpacingExtra="@dimen/satir_araligi"
+                style="@style/content_description_textview"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.FloatingActionButton
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/fab_voice_dua2"
+                android:layout_width="wrap_content"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content"
+                app:backgroundTint="@color/yellow"
+                app:fabSize="mini"
+                android:src="@android:drawable/ic_media_play" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dua_anlami_ly"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:scrollbars = "vertical"
+            android:layout_height="match_parent">
+
+            <WebView
+                android:id="@+id/dua_anlami_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lineSpacingExtra="@dimen/satir_araligi"
+                style="@style/content_description_textview"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.001"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+         <!--   <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/next_item_height"
+                android:text="@string/sonraki_dua"
+                android:drawableRight="@android:drawable/ic_media_next"
+                android:id="@+id/next_dua_button"
+                android:drawableLeft="@android:drawable/ic_media_next"
+                android:background="@drawable/my_next_button"
+                android:layout_gravity="end" />
+                -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="0.001"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/indent_margin"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_width="@dimen/next_item_height"
+                    android:layout_height="@dimen/next_item_height"
+                    android:id="@+id/previous_dua_button"
+                    android:background="@drawable/previous"
+                    android:layout_gravity="start" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="0.001"
+                android:orientation="horizontal"
+                android:gravity="end"
+                android:layout_marginRight="@dimen/indent_margin"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_width="@dimen/next_item_height"
+                    android:layout_height="@dimen/next_item_height"
+                    android:id="@+id/next_dua_button"
+                    android:background="@drawable/next"
+                    android:layout_gravity="end" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

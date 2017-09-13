@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/siyah"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:visibility="visible"
+            android:textColor="@color/bembeyaz"
+            android:textSize="@dimen/button_text"
+            android:text="Başlat"
+            android:textStyle="bold"
+            android:background="@drawable/my_grass_button_right"
+            android:layout_width="@dimen/ana_menu_button_width"
+            android:layout_height="@dimen/ana_menu_button_width"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:id="@+id/button_start"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:layout_gravity="center|bottom" />
+
+        <Button
+            android:visibility="visible"
+            android:textColor="@color/bembeyaz"
+            android:textSize="@dimen/button_text"
+            android:text="Durdur"
+            android:textStyle="bold"
+            android:background="@drawable/my_grass_button_left"
+            android:layout_width="@dimen/ana_menu_button_width"
+            android:layout_height="@dimen/ana_menu_button_width"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:id="@+id/button_stop"
+            android:layout_gravity="center|bottom"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <com.cardiomood.android.controls.gauge.SpeedometerGauge
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            android:id="@+id/speedometer" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:orientation="vertical"
+          android:background="@drawable/border"
+          android:layout_height="wrap_content">
+
+          <LinearLayout
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:layout_width="wrap_content"
+              android:orientation="horizontal"
+              android:layout_height="wrap_content">
+
+
+              <ImageView
+                  android:id="@+id/img_anlik"
+                  android:layout_width="@dimen/small_icon_height"
+                  android:layout_height="@dimen/small_icon_height"
+                  android:paddingTop="@dimen/nav_header_vertical_spacing"
+                  app:srcCompat="@drawable/car3" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Anlık Hız         :  "
+                  android:textSize="@dimen/tv_text_size"
+                  android:textColor="@color/blue"
+                  />
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:text="--.--"
+                  android:textSize="@dimen/tv_value_text_size"
+                  android:textColor="@color/red"
+                  android:id="@+id/speed_text_instant" />
+
+
+
+
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:orientation="horizontal"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:layout_marginBottom="5dp"
+              android:id="@+id/varis_suresi1_ly"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="        Varış Süresi   :  "
+                  android:textSize="@dimen/tv_text_size"
+                  android:textColor="@color/blue"
+                  android:id="@+id/varis_suresi1_tv"
+                  />
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:text="--.--"
+                  android:textSize="@dimen/tv_value_text_size"
+                  android:textColor="@color/red"
+                  android:id="@+id/varis_suresi_text_instant" />
+
+          </LinearLayout>
+      </LinearLayout>
+
+
+
+      <LinearLayout
+          android:layout_marginTop="10dp"
+          android:layout_width="wrap_content"
+          android:orientation="vertical"
+          android:background="@drawable/border"
+          android:layout_height="wrap_content">
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:orientation="horizontal"
+              android:layout_height="wrap_content">
+
+
+              <ImageView
+                  android:id="@+id/img_ortalama"
+                  android:layout_width="@dimen/small_icon_height"
+                  android:layout_height="@dimen/small_icon_height"
+                  android:paddingTop="@dimen/nav_header_vertical_spacing"
+                  app:srcCompat="@drawable/gosterge" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Ortalama Hız :  "
+                  android:textSize="@dimen/tv_text_size"
+                  android:textColor="@color/blue"
+                  />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:text="--.--"
+                  android:textSize="@dimen/tv_value_text_size"
+                  android:textColor="@color/red"
+                  android:id="@+id/speed_text_average" />
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:layout_marginBottom="5dp"
+              android:orientation="horizontal"
+              android:id="@+id/varis_suresi2_ly"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="        Varış Süresi  :  "
+                  android:textSize="@dimen/tv_text_size"
+                  android:textColor="@color/blue"
+                  android:id="@+id/varis_suresi2_tv"
+                  />
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge"
+                  android:text="--.--"
+                  android:textSize="@dimen/tv_value_text_size"
+                  android:textColor="@color/red"
+                  android:id="@+id/varis_suresi_text_ortalama" />
+
+          </LinearLayout>
+
+      </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/border"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/img_bilgi"
+                android:layout_width="@dimen/small_icon_height"
+                android:layout_height="@dimen/small_icon_height"
+                android:paddingTop="@dimen/nav_header_vertical_spacing"
+                app:srcCompat="@drawable/info2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gidilen Yol     :  "
+                android:textSize="@dimen/tv_text_size"
+                android:textColor="@color/blue"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="--.---"
+                android:textSize="@dimen/tv_value_text_size"
+                android:textColor="@color/red"
+                android:id="@+id/gidilen_km_text_total" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/kalan_yol_ly"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        Kalan Yol       :  "
+                android:textSize="@dimen/tv_text_size"
+                android:textColor="@color/blue"
+                android:id="@+id/kalan_yol_tv"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="--.---"
+                android:textSize="@dimen/tv_value_text_size"
+                android:textColor="@color/red"
+                android:id="@+id/kalan_km_text_total" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/toplam_yol_ly"
+            android:layout_height="wrap_content">
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        Toplam Yol    :  "
+                android:textSize="@dimen/tv_text_size"
+                android:textColor="@color/blue"
+                android:id="@+id/toplam_yol_tv"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="--.---"
+                android:textSize="@dimen/tv_value_text_size"
+                android:textColor="@color/red"
+                android:id="@+id/toplam_km_text_total" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        Geçen Süre    :  "
+                    android:textSize="@dimen/tv_text_size"
+                    android:textColor="@color/blue"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="--.---"
+                    android:textSize="@dimen/tv_value_text_size"
+                    android:textColor="@color/red"
+                    android:id="@+id/gecen_sure_text_total" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

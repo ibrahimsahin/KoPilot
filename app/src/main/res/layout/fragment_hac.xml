@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:weightSum="1">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/bembeyaz"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/search_editTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/search_hint"
+            android:layout_marginTop="5dp"
+            android:maxLines="1" />
+
+        <ListView
+            android:animationCache="false"
+            android:scrollingCache="true"
+            android:smoothScrollbar="true"
+            android:stackFromBottom="false"
+            android:background="@drawable/list_item_background"
+            android:id="@+id/hac_directory_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>
+

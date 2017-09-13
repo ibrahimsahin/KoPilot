@@ -1,0 +1,86 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <dimen name="nav_header_vertical_spacing">10dp</dimen>
+    <dimen name="nav_header_height">200dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="satir_araligi">3dp</dimen>
+    <dimen name="margin_small">9dp</dimen>
+
+
+    <dimen name="profile_width">130dp</dimen>
+    <dimen name="profile_height">130dp</dimen>
+
+    <dimen name="mr_dialog_textview">35sp</dimen>
+    <dimen name="mr_dialog_title_text">40sp</dimen>
+
+
+    <dimen name="edittext_height">40sp</dimen>7
+    <dimen name="autocomplete_height">50sp</dimen>
+    <dimen name="spinner_height">50sp</dimen>
+    <dimen name="spinner_height2">25sp</dimen>
+    <dimen name="big_buttons_text_size">30sp</dimen>
+    <dimen name="normal_hint_text_size">20sp</dimen>
+    <dimen name="normal_spinner_height">30sp</dimen>
+    <dimen name="small_textsize">15sp</dimen>
+    <dimen name="medium_textsize">18sp</dimen>
+    <dimen name="normal_definition_text_size">15sp</dimen>
+    <dimen name="big_definition_text_size">15sp</dimen>
+    <dimen name="top_margin">5sp</dimen>
+    <dimen name="tab_label_size">20sp</dimen>
+    <dimen name="tool_bar_height">40sp</dimen>
+    <dimen name="mr_navbar_heigth">60dp</dimen>
+    <dimen name="mr_navbar_label_textviewsize">15dp</dimen>
+    <dimen name="button_text">18dp</dimen>
+    <dimen name="list_item_button_text">12dp</dimen>
+    <dimen name="mr_inputsizebig">25sp</dimen>
+    <dimen name="normal_list_item_image_height">40sp</dimen>
+    <dimen name="dd_list_view_item_text_size">10sp</dimen>
+    <dimen name="wide_autocomplete_width">100sp</dimen>
+    <dimen name="wide_margin_left">10sp</dimen>
+    <dimen name="filtre_height">25sp</dimen>
+    <dimen name="smaller_textsize">10sp</dimen>
+    <dimen name="dar_nav_bar_height">30dp</dimen>
+    <dimen name="small_image_height">30sp</dimen>
+    <dimen name="dar_list_view_item_text_size">10sp</dimen>
+    <dimen name="normal_listview_height">120dp</dimen>
+    <dimen name="kucuk_autocomplete_height">30dp</dimen>
+    <dimen name="mes_detay_giris_top_margin">35dp</dimen>
+    <dimen name="big_layout_height">150dp</dimen>
+    <integer name="yonetici_ekrani_column_count">2</integer>
+    <dimen name="yonetici_ekrani_border_width">250dp</dimen>
+    <dimen name="tool_bar_button_height">35dp</dimen>
+    <dimen name="small_icon_height">30dp</dimen>
+    <dimen name="small_icon_width">30dp</dimen>
+
+    <dimen name="ayarlar_i_height">50dp</dimen>
+
+
+
+    <dimen name="content_header_font_size">20dp</dimen>
+    <dimen name="content_description_font_size">20dp</dimen>
+    <dimen name="indent_margin">20dp</dimen>
+
+    <dimen name="ana_menu_button_width">80dp</dimen>
+    <dimen name="dua_frag_margin">50dp</dimen>
+    <dimen name="content_font_size">18dp</dimen>
+    <dimen name="grid_view_heiht">130dp</dimen>
+    <dimen name="grid_view_width">130dp</dimen>
+    <integer name="spinner_text_size">20</integer>
+    <dimen name="file_size_box_button_width">150dp</dimen>
+    <dimen name="next_item_height">35dp</dimen>
+    <dimen name="nav_bar_text_size">17dp</dimen>
+    <dimen name="nav_bar_item_height">33dp</dimen>
+    <dimen name="ayarlar_text_font_size">18dp</dimen>
+    <dimen name="ayarlar_left_margin">5dp</dimen>
+    <dimen name="ayarlar_button_height">35dp</dimen>
+    <string name="dua_line_height">1.5;</string>
+    <string name="dua_font_size">23px</string>
+    <dimen name="tv_text_size">15dp</dimen>
+    <dimen name="tv_value_text_size">25dp</dimen>
+
+</resources>
